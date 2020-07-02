@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
     var link2 = document.getElementById("link2");
     var link3 = document.getElementById("link3");
     var link4 = document.getElementById("link4");
-    if (docHeight > 700 && docHeight < 1450){
+    if (docHeight > 750 && docHeight < 1500){
         navImg.style.marginLeft = '10px';
         link4.style.marginRight = '10px';
         link1.style.color = 'black';
@@ -35,7 +35,7 @@ window.addEventListener('scroll', function() {
     var link2 = document.getElementById("link2");
     var link3 = document.getElementById("link3");
     var link4 = document.getElementById("link4");
-    if (docHeight > 2250){
+    if (docHeight > 2160){
         navImg.style.marginLeft = '10px';
         link4.style.marginRight = '10px';
         link1.style.color = 'black';
@@ -89,7 +89,7 @@ var typed = new Typed('.element', {
       // Preloader
       $(window).on('load', function () {
         if ($('#preloader').length) {
-          $('#preloader').delay(500).fadeOut('slow', function () {
+          $('#preloader').delay(300).fadeOut('slow', function () {
             $(this).remove();
           });
         }
