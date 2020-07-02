@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Enisan - Web Developer, SEO Expert, Graphics Designer.</title>
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="32x32">
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="64x64">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- UIKIT -->
+    <link rel="stylesheet" href="lib/uikit/css/uikit.min.css" />
+    <script src="lib/uikit/js/uikit.min.js"></script>
+    <script src="lib/uikit/js/uikit-icons.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
+    <script src="lib/uikit/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="lib/animate.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- TYPED JS -->
+    <script src="lib/typed.js"></script>
+    <script type="text/javascript">
+      // split the email into two parts and remove the @ symbol
+      var first = "yourname";
+      var last = "yoursite.com";
+    </script>
+</head>
+<body>
+  <!-- Main Navbar -->
+  <nav class="uk-navbar" id="myNavbar">
+      <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+              <li class="uk-active navbar-brand">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" id="navImg"></a>
+              </li> 
+          </ul>
+      </div>
+      <div class="uk-navbar-right" id="navNav">
+          <ul class="uk-navbar-nav navBar uk-visible@s nav-items"  uk-scrollspy-nav="closest: li; scroll: true; offset: 20">
+              <li><a class="uk-text-large active" href="#home" id="link1">Home</a></li>
+              <li><a class="uk-text-large" href="#about" id="link2">Some Story</a></li>
+              <li><a class="uk-text-large" href="#works" id="link3">Works</a></li>
+              <li><a class="uk-text-large child4" href="#contact" id="link4">Contact Me</a></li>
+          </ul>
+          <a href="#" class="uk-navbar-toggle toggleIcon uk-hidden@s" uk-toggle="target: #sidenav">
+            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" id="toggleIcon">
+
+            <g>
+             <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+            </g>
+            <g>
+             <path id="svg_1" d="m4,10l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2zm24,4l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2zm0,8l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2z"/>
+            </g>
+           </svg>
+          </a>
+      </div>
+  </nav>
+  <div id="sidenav" uk-offcanvas="flip: true; mode: push" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar  uk-flex uk-flex-column">
+          <ul class="uk-nav sideItems uk-nav-center uk-margin-auto-vertical">
+              <li><a class="uk-text-large active" href="#home">Home</a></li>
+              <li><a class="uk-text-large" href="#about">About Us</a></li>
+              <li><a class="uk-text-large" href="cake-gallery.html">Cake Gallery</a></li>
+              <li><a class="uk-text-large" href="#">Order Now</a></li>
+          </ul>
+      </div>
+  </div>
+  <div class="bodyContent">
+    <div class="main snap" id="home">
+      <div class="mainOverlay">
+        <div class="landingText uk-position-center">
+          <h1>Hey, I'm <span>David</span></h1>
+          <span class="element"></span><br>
+          <h2>...so you don't have to.</h2>
+        </div>
+      </div>
+    </div>
+    <div class='whiteOverlay snap' id="about">
+      <div class="aboutContent">
+        <div class="aboutHeader">
+          <h2>Some Story About Me.</h2>
+        </div>
+        <div class="aboutImg">
+          <img src="img/face.png" alt="" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
+        </div>
+        <div class="aboutText" id="myText" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
+          <p>I am an innovative, goal driven, junior web developer, with a keen eye for clean & intuitive user-experience. I like to keep it simple, with more focus on layouts, typography, interface design, and overall security of your website. I am proficient with the following technology, coding languages & frameworks: HTML, CSS (including its popular frameworks), PHP (Beginner Level), Python(Basic). </p>
+        </div>
+      </div>
+    </div>
+    <div class="works snap">
+      <div class="worksOverlay">
+        <div class="worksBody">
+          <div class="worksHeader" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" id="works">
+            <h2>Few Projects</h2>.</h2>
+          </div>
+          <div class="container">
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <h3>Peret Diamond School's Website</h3>
+                      <iframe src="https://www.peretdiamondschool.com/" frameborder="0"></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <h3>Dominion Cakes by Wunmi</h3>
+                      <iframe src="https://dominioncakesbywunmi.com.ng/" frameborder="0"></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <h3>Happy Budding School's Website</h3>
+                      <iframe src="https://happybuddingschool.com/" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="navigate">
+              <button class="swiperNext" id="button">
+                <span uk-icon="chevron-left"></span>
+              </button>
+              <button class="swiperPrev" id="button">
+                <span uk-icon="chevron-right"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="contactBody  container">
+        <div class="worksBody">
+          <div class="worksHeader" id="contact" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
+            <h2>Contact Me</h2>.</h2>
+          </div>
+        <div class="row">
+          <div class="col-lg-5 links">
+            <p><a href="tel:08129052505" class="uk-icon-button uk-margin-small-right" uk-icon="receiver"></a><a href="tel:08129052505">+234 812 905 2504</a></p>
+            <p><a href="mailto:davidenisan@gmail.com" class="uk-icon-button uk-margin-small-right" uk-icon="mail"></a><a href="mailto:davidenisan@gmail.com">davidenisan@gmail.com</a></p>
+            <p><a href="https://twitter.com/enisan_david" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a><a href="https://twitter.com/enisan_david">@enisan_david</a></p>
+            <p><a href="https://www.instagram.com/dxvidenisxn/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a><a href="https://www.instagram.com/dxvidenisxn/">@dxvidenisxn</a></p>
+          </div>
+          <div class="col-lg-7">
+            <form class="uk-grid-small" uk-grid method="post" action="contactform/submit.php" >
+              <div class="uk-width-1-2@s fta">
+                  <p>Your name:
+                  <br /><input class="uk-input" type="text" placeholder="David King" name="name" /></p>
+              </div>
+              <div class="uk-width-1-2@s fta">
+                <p>Your email:
+                <br /><input class="uk-input" type="text" placeholder="davidking@example.com" name="email" /></p>
+              </div>
+              <p class="antispam" style="display: none;">Leave this empty:
+              <br /><input name="url" /></p>
+              <div class="uk-width-1-1 fta">
+                  <p>Your message:
+                  <br /><textarea name="message" rows="30" cols="50" class="uk-input"></textarea></p>
+              </div>
+              <div class="submit-button col-md-12">
+                <p><input class="uk-button uk-button-default uk-align-center"  type="submit" value="Send" /></p>
+              </div>
+            </form>
+            <div class="hide-this" style="display: none;">
+              <p>My e-mail address:
+              <script type="text/javascript">
+                document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+              </script>
+              <noscript>
+              Please enable javascript or use the contact form.
+              </noscript>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="js/main.js"></script>
+<!-- BOOTSTRAP  -->
+<script src="lib/bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script src="lib/bootstrap/js/popper.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<!-- SWIPER JS -->
+<script src="lib/swiper/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+  var swiper1 = new Swiper('.swiper-container', {
+    slidesPerView: 1, 
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 200,
+    navigation: {
+      nextEl: '.swiperPrev',
+      prevEl: '.swiperNext',
+    },
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
+    effect: 'fade',
+      fadeEffect: {
+    crossFade: true
+  },
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+    },
+  });
+</script>
+<script src="lib/wow.min.js"></script>
+</body>
+<!-- PRELOADER -->
+<div id="preloader"></div>
+</html>
