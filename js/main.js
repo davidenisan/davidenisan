@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
     var link2 = document.getElementById("link2");
     var link3 = document.getElementById("link3");
     var link4 = document.getElementById("link4");
-    if (docHeight > 700 && docHeight < 1400){
+    if (docHeight > 700 && docHeight < 1450){
         navImg.style.marginLeft = '10px';
         link4.style.marginRight = '10px';
         link1.style.color = 'black';
