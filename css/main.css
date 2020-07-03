@@ -171,7 +171,6 @@ span.element{
 }
 .works h3{
     color: #fff;
-    margin-bottom: 10px !important;
 }
 .swiper-container {
     width: 100%;
@@ -189,10 +188,12 @@ span.element{
 .worksBody h2{
     padding-top: 100px;
 }
-iframe{
-    height: 400px;
-    width: 100%;
-    margin-bottom: 50px;
+.works img{
+    height: 400px !important;
+    width: auto !important;
+}
+.slides{
+    height: 500px;
 }
 .navigate button{
     padding: 10px;
