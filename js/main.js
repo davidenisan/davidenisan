@@ -86,12 +86,4 @@ var typed = new Typed('.element', {
   (function ($) {
       "use strict";
       
-      // Preloader
-      $(window).on('load', function () {
-        if ($('#preloader').length) {
-          $('#preloader').delay(300).fadeOut('slow', function () {
-            $(this).remove();
-          });
-        }
-      });
-  })(jQuery);
+
