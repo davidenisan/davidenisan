@@ -17,7 +17,6 @@ window.addEventListener('scroll', function() {
         navImg.style.filter =  'invert(1)';
         toggleIcon.style.fill = "black";
     }else{
-        navImg.style.marginLeft = '100px';
         link4.style.marginRight = '100px';
         navImg.style.filter =  'invert(0)';
         link1.style.color = 'white';
@@ -26,6 +25,7 @@ window.addEventListener('scroll', function() {
         link4.style.color = 'white';
         toggleIcon.style.fill = "white";
     }
+        navImg.style.marginLeft = '100px';
 });window.addEventListener('scroll', function() {
     var docHeight = window.pageYOffset;
     var navImg = document.getElementById("navImg");
@@ -83,7 +83,5 @@ var typed = new Typed('.element', {
     // callback for reset
     resetCallback: function() {}
   });
-  (function ($) {
-      "use strict";
       
 
