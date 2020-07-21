@@ -253,7 +253,11 @@
 <!-- SWIPER JS -->
 <script src="lib/swiper/js/swiper.min.js"></script>
 <!-- Initialize Swiper -->
-<script>      // Preloader
+<script>
+  (function ($) {
+      "use strict";
+      
+      // Preloader
       $(window).on('load', function () {
         if ($('#preloader').length) {
           $('#preloader').delay(300).fadeOut('slow', function () {
