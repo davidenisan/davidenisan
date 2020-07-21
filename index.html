@@ -253,7 +253,15 @@
 <!-- SWIPER JS -->
 <script src="lib/swiper/js/swiper.min.js"></script>
 <!-- Initialize Swiper -->
-<script>
+<script>      // Preloader
+      $(window).on('load', function () {
+        if ($('#preloader').length) {
+          $('#preloader').delay(300).fadeOut('slow', function () {
+            $(this).remove();
+          });
+        }
+      });
+  })(jQuery);
   var swiper1 = new Swiper('.swiper-container', {
     slidesPerView: 1, 
     centeredSlides: true,
