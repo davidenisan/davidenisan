@@ -83,17 +83,17 @@ var typed = new Typed('.element', {
     // callback for reset
     resetCallback: function() {}
   });
-(function ($) {
-    "use strict";
+// (function ($) {
+//     "use strict";
     
-    // Preloader
-    $(window).on('load', function () {
-      if ($('#preloader').length) {
-        $('#preloader').delay(500).fadeOut('slow', function () {
-          $(this).remove();
-        });
-      }
-    });
-})(jQuery);
+//     // Preloader
+//     $(window).on('load', function () {
+//       if ($('#preloader').length) {
+//         $('#preloader').delay(500).fadeOut('slow', function () {
+//           $(this).remove();
+//         });
+//       }
+//     });
+// })(jQuery);
       
 
